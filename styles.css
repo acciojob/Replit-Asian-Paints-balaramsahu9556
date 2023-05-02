@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+.container{
+	display:grid;
+	background_color:transparent;
+	grid-tamplate-column:1fr 1fr 1fr;
+	grid-tamplate-rows:repeat(3,100px);
+}
+.item {
+  border: 2px solid black;
+  background-color: transparent;
+}
